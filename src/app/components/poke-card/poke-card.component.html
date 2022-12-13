@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="title-wrapper">
+    <div class="title-picture">
+      <img
+        src="{{ pokemonData.picture }}"
+        alt="{{ pokemonData.name }}"
+        title="{{ pokemonData.name | titlecase }}"
+      />
+    </div>
+    <div>
+      <h1 class="title-header">{{ pokemonData.name | titlecase }}</h1>
+      <h2 class="title-subheader">
+        <em>{{ pokemonData.ability }}</em>
+      </h2>
+    </div>
+  </div>
+  <hr class="divider" />
+  <div class="moves-wrapper">
+    <ul *ngFor="let move of pokemonData.moves">
+      <li>{{ move | titlecase }}</li>
+    </ul>
+  </div>
+</div>

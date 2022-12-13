@@ -1,0 +1,21 @@
+.button-wrapper {
+  width: 200px;
+  padding: 16px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  border: 2px solid #20a4f3;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  &:hover {
+    background-color: #20a4f3;
+    color: white;
+    transition: all linear 0.3s;
+  }
+  &:active {
+    background-color: #075988;
+    border: 2px solid #075988;
+  }
+}

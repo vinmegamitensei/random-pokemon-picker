@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "random-pokemon-e52d1": {
+      "hosting": {
+        "randompoke": [
+          "random-pokemon-e52d1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "random-pokemon-e52d1"
+  }
+}
